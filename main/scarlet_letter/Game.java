@@ -41,6 +41,7 @@ public class Game extends Canvas implements Runnable {
     public void init() {
     
     requestFocus();
+    //move them to download file work change file location
     try {
          spiteSheet = ImageIO.read(new File("C:\\Users\\abrar\\Downloads\\image-2.png"));
          verticalm = ImageIO.read(new File("C:\\Users\\abrar\\Downloads\\Capture-removebg-preview_1_5x190.png"));
